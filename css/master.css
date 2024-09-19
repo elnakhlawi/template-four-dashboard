@@ -247,15 +247,6 @@ ul {
 }
 .welcome .visit {
   margin: 0 15px 15px auto;
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-}
-
-.welcome .visit:hover {
-  background-color: var(--blue-alt-color);
 }
 
 @media (max-width: 767px) {
@@ -264,6 +255,22 @@ ul {
   }
 }
 /* end welcome widges */
+
+/* start quick-draft widget */
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+
+.quick-draft .save {
+  margin-left: auto;
+}
+.quick-draft textarea:focus::placeholder,
+.quick-draft .inpt-title:focus::placeholder {
+  opacity: 0;
+}
+
+/*end quick-draft widget */
 
 /* start animation  */
 @keyframes left-to-right {
