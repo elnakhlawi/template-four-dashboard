@@ -2,6 +2,8 @@
   --grey-color: #888;
   --blue-color: #0075ff;
   --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
 }
 * {
   box-sizing: border-box;
@@ -272,6 +274,77 @@ ul {
 
 /*end quick-draft widget */
 
+/* start targets */
+.targets .target .icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+
+}
+
+.targets .target .details {
+  flex: 1;
+}
+.targets .target .details .progress {
+  height: 4px;
+}
+.targets .target .details .progress > span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.targets .target .details .progress > span span {
+  position: absolute;
+  border-radius: 6px;
+  padding: 2px 5px;
+  right: -16px;
+  bottom: 16px;
+  color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-size: 12px;
+
+}
+.targets .target .details .progress > span span::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-color: transparent;
+  border-width: 5px;
+  border-style: solid;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.targets .target .details .progress > .blue span::after {
+  border-top-color: var(--blue-color);
+}
+.targets .target .details .progress > .orange span::after {
+  border-top-color: var(--orange-color);
+}
+.targets .target .details .progress > .green span::after {
+  border-top-color: var(--green-color);
+}
+
+.targets .blue .icon,
+.targets .blue .progress {
+  background-color: #cce3ff;
+}
+.targets .orange .icon,
+.targets .orange .progress {
+  background-color: #fdecce;
+}
+.targets .green .icon,
+.targets .green .progress {
+  background-color: #d2f4df;
+}
+/* endtargets */
 /* start animation  */
 @keyframes left-to-right {
   20% {
@@ -296,5 +369,7 @@ ul {
     -o-transform: translateX(-50px);
   }
 }
+
+
 
 /* end animation  */
