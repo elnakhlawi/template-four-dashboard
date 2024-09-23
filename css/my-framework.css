@@ -121,6 +121,9 @@
 .b-3c {
   border: 1px solid #ccc;
 }
+.bb-3c {
+  border-bottom: 1px solid #ccc;
+}
 .b-none {
   border: none;
 }
