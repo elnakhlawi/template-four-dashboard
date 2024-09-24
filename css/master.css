@@ -408,6 +408,27 @@ ul {
 }
 /* end news */
 
+/* start tasks */
+.tasks .box{
+  padding-top:6px;
+  padding-bottom: 6px;
+}
+.tasks .box .div{
+  flex-grow: 1;
+}
+.tasks .box i{
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+.tasks .box i:hover{
+  color:red;  
+  cursor: pointer;
+}
+/* end tasks */
+
 /* start animation  */
 @keyframes left-to-right {
   20% {
