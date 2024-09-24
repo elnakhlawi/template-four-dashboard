@@ -395,12 +395,11 @@ ul {
     font-size: 13px;
     margin-bottom: 5px;
   }
-  .news .box .content span{
+  .news .box .content span {
     font-size: 12px;
-    line-height:-2;
+    line-height: -2;
   }
   .news .box p {
-    
     font-size: 10px;
     padding-left: 2px;
     padding-right: 2px;
@@ -409,25 +408,36 @@ ul {
 /* end news */
 
 /* start tasks */
-.tasks .box{
-  padding-top:6px;
+.tasks .box {
+  padding-top: 6px;
   padding-bottom: 6px;
 }
-.tasks .box .div{
+.tasks .box .div {
   flex-grow: 1;
 }
-.tasks .box i{
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
+.tasks .box i {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
-.tasks .box i:hover{
-  color:red;  
+.tasks .box i:hover {
+  color: red;
   cursor: pointer;
 }
 /* end tasks */
+
+/* start uploads */
+.latest-uploads ul li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+/* start uploads */
+.latest-uploads ul li:not(:last-of-type){
+  border-bottom: 1px solid #eee;
+}
+/* end uploads */
 
 /* start animation  */
 @keyframes left-to-right {
