@@ -14,7 +14,7 @@
 .f-wrap {
   flex-wrap: wrap;
 }
-.fg-1{
+.fg-1 {
   flex-grow: 1;
 }
 .align-c {
@@ -41,8 +41,8 @@
 /* end box  */
 
 /* start width + height */
-.w-40{
-  width:40px;
+.w-40 {
+  width: 40px;
 }
 .w-full {
   width: 100%;
@@ -51,13 +51,13 @@
   width: fit-content;
 }
 
-.h-40{
+.h-40 {
   height: 40px;
 }
 /* end width + height */
 
 /* start padding +margin  */
-.p-5{
+.p-5 {
   padding: 5px;
 }
 .p-10 {
@@ -69,12 +69,25 @@
 .p-20 {
   padding: 20px;
 }
-.pt-4,.pb-4{
+.pt-4 {
   padding-top: 4px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+.pb-4 {
   padding-bottom: 4px;
 }
-.pr-10,.pl-10{
+.pb-20{
+  padding-bottom: 20px;
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+.pr-10 {
   padding-right: 10px;
+}
+.pl-10 {
   padding-left: 10px;
 }
 .m-0 {
@@ -95,14 +108,17 @@
 .mt-20 {
   margin-top: 20px;
 }
-.mt-25{
+.mt-25 {
   margin-top: 25px;
 }
-.mr-5{
+.mr-5 {
   margin-right: 5px;
 }
-.mr-10{
+.mr-10 {
   margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
 }
 .mr-20 {
   margin-right: 20px;
@@ -138,6 +154,13 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 .b-3c {
   border: 1px solid #ccc;
@@ -213,6 +236,9 @@
 }
 .fs-16 {
   font-size: 16px;
+}
+.fs-20{
+  font-size: 20px;
 }
 .fs-25 {
   font-size: 25px;

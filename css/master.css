@@ -497,9 +497,8 @@ ul {
 .reminders .box .circle {
   width: 50px;
   height: 50px;
-  margin-right:15px;
-  border-right: 2px solid ;
-
+  margin-right: 15px;
+  border-right: 2px solid;
 }
 .reminders .box .circle.blue {
   border-right-color: var(--blue-color);
@@ -513,38 +512,64 @@ ul {
 .reminders .box .circle.red {
   border-right-color: var(--red-color);
 }
-.reminders .box .circle::before{
-  content: '';
+.reminders .box .circle::before {
+  content: "";
   position: absolute;
-  width:15px;
+  width: 15px;
   height: 15px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  top:50%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
-.reminders .box .circle.blue::before{
+.reminders .box .circle.blue::before {
   background-color: var(--blue-color);
 }
-.reminders .box .circle.orange::before{
+.reminders .box .circle.orange::before {
   background-color: var(--orange-color);
 }
-.reminders .box .circle.green::before{
+.reminders .box .circle.green::before {
   background-color: var(--green-color);
 }
-.reminders .box .circle.red::before{
+.reminders .box .circle.red::before {
   background-color: var(--red-color);
 }
 /* end reminders */
+
+/* start latest-post */
+.latest-post .post-reacts .lik {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.latest-post .post-reacts .comment {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.latest-post .post-reacts .lik:hover {
+  color: red;
+  cursor: pointer;
+}
+.latest-post .post-reacts .comment:hover {
+  color: red;
+  cursor: pointer;
+}
+/* end latest-post */
+
 /* start animation  */
 @keyframes left-to-right {
   20% {
