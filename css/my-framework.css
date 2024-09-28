@@ -195,6 +195,9 @@
 .bg-green {
   background-color: var(--green-color);
 }
+.bg-red{
+  background-color: red;
+}
 .c-black {
   color: black;
 }
