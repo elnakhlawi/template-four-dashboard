@@ -6,8 +6,8 @@
   --green-color: #22c55e;
   --red-color: #f44336;
 }
-/* start box  */
 
+/* start box  */
 .d-flex {
   display: flex;
 }
@@ -54,6 +54,9 @@
 .h-40 {
   height: 40px;
 }
+.minH-140{
+  min-height: 140px;
+}
 /* end width + height */
 
 /* start padding +margin  */
@@ -72,16 +75,16 @@
 .pt-4 {
   padding-top: 4px;
 }
-.pt-20{
+.pt-20 {
   padding-top: 20px;
 }
 .pb-4 {
   padding-bottom: 4px;
 }
-.pb-20{
+.pb-20 {
   padding-bottom: 20px;
 }
-.pb-30{
+.pb-30 {
   padding-bottom: 30px;
 }
 .pr-10 {
@@ -134,6 +137,9 @@
 }
 .mb-20 {
   margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
 }
 .ml-20 {
   margin-left: 20px;
@@ -213,6 +219,10 @@
 /* end color  */
 
 /* start font  */
+.lineH-1-5 {
+  line-height: 1.5;
+}
+
 .text-c {
   text-align: center;
 }
@@ -237,7 +247,7 @@
 .fs-16 {
   font-size: 16px;
 }
-.fs-20{
+.fs-20 {
   font-size: 20px;
 }
 .fs-25 {
@@ -245,11 +255,14 @@
 }
 /* end font  */
 
-/* start position */
+
 
 /* start position */
 .p-relative {
   position: relative;
+}
+.p-abs{
+  position: absolute;
 }
 /* end position */
 
